@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { CiCircleMore } from "react-icons/ci";
+import { IoIosCloseCircle } from "react-icons/io";
 
 const content = [
   {
@@ -108,9 +110,9 @@ const WorkingProcess = () => {
                 </h3>
                 <button
                   onClick={() => handleIsActive(item.id)}
-                  className="w-14 h-14 flex items-center justify-center border border-black rounded-full bg-white text-2xl font-medium transition-all duration-300 cursor-pointer"
+                  className=" w-7 h-7 md:w-14 md:h-14 flex items-center justify-center border border-black rounded-full bg-white text-2xl font-medium transition-all duration-300 cursor-pointer"
                 >
-                  {isActive ? "−" : "+"}
+                  {isActive ? <IoIosCloseCircle /> : <CiCircleMore />}
                 </button>
               </div>
 
