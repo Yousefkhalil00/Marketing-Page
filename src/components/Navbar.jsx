@@ -11,7 +11,7 @@ const Navbar = () => {
     setIsActive((prev) => !prev);
   }
   return (
-    <ul className="  md:my-8 sticky top-0 z-50 backdrop-blur-2xl">
+    <ul className=" my-4 md:my-8 sticky top-0 z-50 backdrop-blur-2xl">
       <div
         className={`container md:flex md:justify-between md:items-center md:my-5 `}
       >
