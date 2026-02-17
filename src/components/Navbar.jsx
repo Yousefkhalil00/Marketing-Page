@@ -1,6 +1,8 @@
 import logo from "../assets/logo.svg";
 import Button from "./Button";
 import { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
 
 const links = ["About us", "Services", "Use Cases", "Pricing", "Blog"];
 
@@ -18,7 +20,7 @@ const Navbar = () => {
         <div className=" flex justify-between items-center">
           <img className="w-[50%] md:w-full" src={logo} alt="Logo" />
           <button onClick={handleIsActive} className="flex md:hidden text-3xl">
-            {isActive ? "X" : "..."}
+            {isActive ? <IoClose /> : <GiHamburgerMenu />}
           </button>
         </div>
 
