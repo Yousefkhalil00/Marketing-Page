@@ -55,7 +55,7 @@ const CaseStudies = () => {
         variants={container}
         initial="hidden"
         whileInView="show"
-        className="bg-stone-900 text-white grid lg:grid-cols-3 grid-cols-1 sm:p-5 md:p-20 rounded-3xl my-20 gap-10"
+        className="bg-stone-900 text-white grid lg:grid-cols-3 grid-cols-1 p-10 md:p-20 rounded-3xl my-20 gap-10"
       >
         {studies.map((item) => {
           return (
