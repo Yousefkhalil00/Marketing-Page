@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import Arrow from "src/assets/ElLipse.svg";
+import Arrow from "../assets/Ellipse.svg";
 
 const studies = [
   "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
