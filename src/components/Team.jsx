@@ -66,7 +66,7 @@ const item = {
 
 const Team = () => {
   return (
-    <div className="my-20">
+    <div id="About us" className="my-20">
       <motion.div
         variants={container}
         initial="hidden"

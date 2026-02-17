@@ -30,7 +30,7 @@ const Navbar = () => {
           {links.map((item) => {
             return (
               <a
-                href={item}
+                href={`#${item}`}
                 key={item}
                 className={`hover:text-gray-600 lg:text-base md:text-xs sm:text-base`}
               >

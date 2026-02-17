@@ -32,6 +32,7 @@ const Footer = () => {
       variants={container}
       initial="hidden"
       whileInView="show"
+      id="Pricing"
       className="bg-stone-900 text-white px-10 py-20 rounded-tl-4xl rounded-tr-4xl mt-32"
     >
       <motion.div

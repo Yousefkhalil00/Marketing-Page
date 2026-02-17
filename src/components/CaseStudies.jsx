@@ -31,7 +31,7 @@ const CaseStudies = () => {
     },
   };
   return (
-    <div className="">
+    <div id="Use Cases">
       <motion.div
         variants={container}
         initial="hidden"

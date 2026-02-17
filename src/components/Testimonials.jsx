@@ -65,7 +65,7 @@ const item = {
 
 const Testimonials = () => {
   return (
-    <div className="my-20">
+    <div id="Blog" className="my-20">
       {/* Header */}
       <motion.div
         variants={container}
